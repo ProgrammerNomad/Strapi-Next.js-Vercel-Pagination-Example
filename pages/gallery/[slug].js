@@ -10,11 +10,10 @@ export async function getStaticPaths() {
  
     return {
         paths: [
-            //{ params: {} },
-            { params: { slug: ['a'] } },
-            { params: { slug: ['d', 'b'] } },
-            { params: { slug: ['b', 'b'] } },
-            { params: { slug: ['c', 'b'] } }
+            { params: { slug: "a" } },
+            { params: { slug: "b" } },
+            { params: { slug: "c" } },
+            { params: { slug: "d" } }
         ],
         fallback: false
     }
