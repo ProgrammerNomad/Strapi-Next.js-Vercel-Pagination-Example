@@ -7,7 +7,7 @@ const Gallery = ({ CurrentPage }) => {
         </>
     )}
 export async function getStaticPaths() {
-
+ 
     return {
         paths: [
             { params: { slug: "a" } },
